@@ -1,0 +1,236 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+// Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #434850;
+$headingColor: #333;
+
+$mainFontSize: 38px;
+$mainFont: 'Open Sans', sans-serif;
+$headingFont: Montserrat, 'Open Sans', sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 400;
+$linkColor: #5992bf;
+$linkColorHover: #396b93;
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+$red: #D8000C;
+$green: #4F8A10;
+
+section.has-dark-background {
+    &, h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+}
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+.reveal {
+    .slide-background {
+        video {
+            height: auto;
+        }
+    }
+
+    footer {
+      position: fixed;
+      top: auto;
+      bottom: 1em;
+      left: 1em;
+      padding: .5em;
+      z-index: 100;
+      font-size: 0.5em;
+      background: rgba(255, 255, 255, 0.7);
+
+      a {
+        color: darken($linkColor, 15%);
+      }
+    }
+
+    output {
+        @extend code;
+
+        .text-notice {
+            color: teal;
+        }
+
+        .text-fail {
+            color: $red;
+        }
+
+        .highlight-warning, .highlight-fail {
+            display: inline-block;
+            padding: 0 2px;
+        }
+
+        .highlight-warning {
+            color: #222;
+            background: yellow;
+        }
+
+        .highlight-fail {
+            color: #fff;
+            background: $red;
+        }
+    }
+}
+
+.slides {
+
+    h1, h2, h3, h4, h5, h6 {
+        line-height: 1.35;
+
+        img {
+            border: none;
+            box-shadow: none;
+            max-width: 50%;
+            max-height: 1.5em;
+        }
+
+        code {
+            text-transform: none;
+        }
+
+        &.wordpress-icon {
+            &:before {
+                content: '';
+                display: inline-block;
+                width: .7em;
+                height: .7em;
+                margin-right: .2em;
+                vertical-align: middle;
+                background: url('../resources/wordpress.svg') center center no-repeat;
+                background-size: contain;
+            }
+        }
+    }
+
+    h1 {
+        line-height: 1.5;
+        small {
+            display: block;
+            margin-top: .5em;
+        }
+    }
+
+    a {
+        &:hover {
+            img {
+                box-shadow: none;
+            }
+        }
+    }
+
+    cite {
+        display: block;
+        margin-top: 1em;
+        font-size: .8em;
+    }
+
+    .slides-link {
+        display: block;
+        margin-top: 1em;
+        font-size: .86em;
+        white-space: nowrap;
+        + .slides-link {
+            margin-top: 0;
+        }
+    }
+
+    dl {
+        width: 100%;
+        margin: 0;
+
+        dt {
+            clear: both;
+            float: left;
+            width: 35%;
+            font-family: $headingFont;
+            text-align: right;
+        }
+
+        dd {
+            clear: right;
+            float: right;
+            width: calc(65% - 40px);
+
+            + dt, + dd {
+                margin-top: .5em;
+            }
+
+            pre {
+                width: 100%;
+            }
+        }
+
+        dd + dt,
+        dd + dt + dd {
+            margin-top: .5em;
+        }
+    }
+
+    blockquote {
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    table {
+        &.equivalence-table {
+            td {
+                border: none;
+            }
+        }
+    }
+
+    .fragment-replacement {
+        .fragment.fade-out.visible,
+        .fragment.fade-in:not(.visible) {
+            display: none;
+        }
+    }
+
+    .fragment.visible {
+        &.highlight-red {
+            color: $red !important;
+        }
+        &.highlight-green {
+            color: $green !important;
+        }
+    }
+
+    .pass {
+        color: $green;
+    }
+
+    .fail {
+        color: $red;
+    }
+
+    .status-icon {
+        display: inline-block;
+        width: 1em;
+        font-size: .8em;
+        vertical-align: center;
+    }
+}

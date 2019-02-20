@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Confidently Testing WordPress",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "stevegrunwell",
+    "githubRepository": "confidently-testing-wordpress"
+  }
+}
