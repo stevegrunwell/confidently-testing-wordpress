@@ -6,7 +6,7 @@ Meanwhile, automated testing is one of the best ways to ensure software can be r
 
 This talk introduces the fundamentals of automated testing, especially within the context of WordPress. After developing an understanding why automated testing is so critical, attendees will learn how to begin testing their plugins and themes, using features found both in PHPUnit and the WordPress core testing framework, to build and release quality software.
 
-:sparkles: **[View slides](http://stevegrunwell.github.io/testing-wordpress)** :sparkles:
+:sparkles: **[View slides](http://stevegrunwell.github.io/confidently-testing-wordpress)** :sparkles:
 
 ## Resources
 
