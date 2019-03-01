@@ -12,7 +12,7 @@ public function recent_posts_heading_plurals( $number, $expected ) {
 
     $this->expectOutput( $expected );
 
-    recentPostsHeading( $posts );
+    recent_posts_heading( $posts );
 }
 ```
 
