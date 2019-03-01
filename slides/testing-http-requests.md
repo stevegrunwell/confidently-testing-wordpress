@@ -1,4 +1,4 @@
-### Mocking HTTP Requests
+### Stubbing HTTP Requests
 
 ```php
 add_filter( 'pre_http_request', function () {
