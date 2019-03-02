@@ -19,4 +19,4 @@ This talk introduces the fundamentals of automated testing, especially within th
 
 ## Presentation History
 
-* [WordCamp Dayton 2019](https://2019.dayton.wordcamp.org) — March 2, 2019
+* [WordCamp Dayton 2019](https://2019.dayton.wordcamp.org) — March 2, 2019 ([PDF](https://github.com/stevegrunwell/confidently-testing-wordpress/releases/download/wordcamp-dayton-2019/slides.pdf))
