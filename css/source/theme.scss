@@ -10,7 +10,7 @@
 // ---------------------------------------------
 
 // Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One|Open+Sans');
 
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
 $backgroundColor: #fff;
@@ -20,14 +20,14 @@ $headingColor: #333;
 
 $mainFontSize: 38px;
 $mainFont: 'Open Sans', sans-serif;
-$headingFont: Montserrat, 'Open Sans', sans-serif;
+$headingFont: 'Paytone One', 'Open Sans', sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
 $headingFontWeight: 400;
 $linkColor: #5992bf;
 $linkColorHover: #396b93;
-$selectionBackgroundColor: lighten( $linkColor, 25% );
+$selectionBackgroundColor: lighten($linkColor, 25%);
 
 $heading1Size: 2em;
 $heading2Size: 1.6em;
