@@ -17,6 +17,6 @@ add_filter( 'pre_http_request', function () {
 
 Note:
 
-The pre_http_request filter will let us short-circuit responses from the WordPress HTTP API.
+The pre_http_request filter will let us short-circuit responses from the WordPress HTTP API, we just need to return an array that matches the format of a WordPress HTTP response.
 
 By stubbing responses from external APIs, our tests won't have to rely on these external APIs. Remember the System Under Test: we're not testing the API, we're testing how we interact with it.
