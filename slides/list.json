@@ -21,7 +21,6 @@
         "the-search-for-truth.md",
         "example-output.md",
         "test-doubles.md",
-        "test-doubles2.md",
         "mockery.md",
         "phpunit-markup-assertions.md"
     ],
@@ -34,7 +33,6 @@
         "wordpress-test-class.md",
         "fixtures.md",
         "groups.md",
-        "skip-and-incomplete.md",
         "data-providers.md",
         "factories.md",
         "authentication.md",

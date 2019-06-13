@@ -1,7 +1,7 @@
 ### Regression tests
 
 ```php
-function recent_posts_heading( $posts ) {
+function recent_posts_heading( array $posts ) {
     if ( empty( $posts ) ) {
         _e( 'There have been no posts in the last 30 days.' );
     } else {
