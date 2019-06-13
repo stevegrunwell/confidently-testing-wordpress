@@ -1,6 +1,6 @@
 ### Regression tests
 
-<pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">function recent_posts_heading(array $posts) {
+<pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">function recent_posts_heading( array $posts ) {
     if ( empty( $posts ) ) {
         _e( 'There have been no posts in the last 30 days.' );
     } else {
@@ -9,7 +9,7 @@
             count( $posts )
         );
     }
-}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">function recent_posts_heading(array $posts) {
+}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">function recent_posts_heading( array $posts ) {
     if ( empty( $posts ) ) {
         _e( 'There have been no posts in the last 30 days.' );
     } elseif ( 1 === count( $posts ) ) {
