@@ -3,8 +3,8 @@
 <pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">/**
  * @dataProvider my_data_provider()
  */
-public function test_my_function( $expected, $actual ) {
-    $this->assertEquals( $expected, my_function( $actual ) );
+public function test_my_function( $expected, $value ) {
+    $this->assertEquals( $expected, my_function( $value ) );
 }
 
 public function my_data_provider() {
@@ -16,8 +16,8 @@ public function my_data_provider() {
  * @testWith ["foo", "bar"]
  *           ["bar", "baz"]
  */
-public function test_my_function($expected, $actual) {
-    $this->assertEquals( $expected, my_function( $actual ) );
+public function test_my_function( $expected, $value ) {
+    $this->assertEquals( $expected, my_function( $value ) );
 }</code></pre>
 
 Note:
