@@ -19,5 +19,5 @@ This talk introduces the fundamentals of automated testing, especially within th
 
 ## Presentation History
 
-* [WordCamp Kent 2019](https://2019.kent.wordcamp.org) — June 15, 2019
+* [WordCamp Kent 2019](https://2019.kent.wordcamp.org) — June 15, 2019 ([PDF](https://github.com/stevegrunwell/confidently-testing-wordpress/releases/download/wordcamp-kent-2019/slides.pdf))
 * [WordCamp Dayton 2019](https://2019.dayton.wordcamp.org) — March 2, 2019 ([PDF](https://github.com/stevegrunwell/confidently-testing-wordpress/releases/download/wordcamp-dayton-2019/slides.pdf))
