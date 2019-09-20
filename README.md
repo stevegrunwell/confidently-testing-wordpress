@@ -20,7 +20,7 @@ This talk introduces the fundamentals of automated testing, especially within th
 ## Presentation History
 
 * [WordCamp US 2019](https://2019.us.wordcamp.org) — November 2, 2019
-* [Cascadia PHP 2019](https://2019.cascadiaphp.com) — September 20, 2019
+* [Cascadia PHP 2019](https://2019.cascadiaphp.com) — September 20, 2019 ([Joind.in](https://joind.in/talk/e126f))
 * [WordCamp Grand Rapids 2019](https://2019.grandrapids.wordcamp.org) — July 13, 2019 ([PDF](https://github.com/stevegrunwell/confidently-testing-wordpress/releases/download/wordcamp-grand-rapids-2019/slides.pdf))
 * [WordCamp Kent 2019](https://2019.kent.wordcamp.org) — June 15, 2019 ([PDF](https://github.com/stevegrunwell/confidently-testing-wordpress/releases/download/wordcamp-kent-2019/slides.pdf))
 * [WordCamp Dayton 2019](https://2019.dayton.wordcamp.org) — March 2, 2019 ([PDF](https://github.com/stevegrunwell/confidently-testing-wordpress/releases/download/wordcamp-dayton-2019/slides.pdf))

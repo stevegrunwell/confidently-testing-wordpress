@@ -4,4 +4,4 @@
 Steve Grunwell<br>
 Senior Software Engineer, Liquid Web
 
-[stevegrunwell.com/slides/testing-wordpress](https://stevegrunwell.com/slides/testing-wordpress)<!-- .element: class="slides-link" -->
+<!-- .element: class="slides-link" -->[stevegrunwell.com/slides/testing-wordpress](https://stevegrunwell.com/slides/testing-wordpress)<br>[joind.in/talk/e126f](https://joind.in/talk/e126f)
