@@ -233,4 +233,12 @@ section.has-dark-background {
         font-size: .8em;
         vertical-align: center;
     }
+
+    .seamless {
+        &, img {
+            border: 0;
+            box-shadow: none;
+            background: transparent;
+        }
+    }
 }
