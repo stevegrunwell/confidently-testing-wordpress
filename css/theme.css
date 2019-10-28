@@ -408,3 +408,8 @@ body {
   width: 1em;
   font-size: .8em;
   vertical-align: center; }
+
+.slides .seamless, .slides .seamless img {
+  border: 0;
+  box-shadow: none;
+  background: transparent; }

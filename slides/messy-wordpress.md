@@ -1,4 +1,6 @@
-<!-- .slide: data-background="resources/koolaid.jpg" data-background-size="contain" data-background-color="#000" -->
+### Not so fast!
+
+![A Wapuu struggling to move WordPress](resources/wapuu-struggle.png)<!-- .element: class="seamless" -->
 
 Note:
 
